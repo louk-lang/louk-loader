@@ -9,9 +9,9 @@ $ npm install louk-loader -D
 ## Content
 
 ### In Single-File Components
-Vue [Single-File Components](https://vuejs.org/v2/guide/single-file-components.html) can use Louk in their `template` by including the `lang=louk` attribute.
-```
-///App.vue
+Vue [Single-File Components](https://vuejs.org/v2/guide/single-file-components.html) can use Louk in their `template` by including the `lang="louk"` attribute.
+```html
+//App.vue
 <template lang="louk">
     div
         h1 name
@@ -30,7 +30,7 @@ Vue [Single-File Components](https://vuejs.org/v2/guide/single-file-components.h
 
 ### In Standalone Files
 Louk content can also be imported from standalone `.louk` files.
-```
+```js
 //index.js
 const doc = require("./example-docs/doc.louk")
 ```
@@ -45,7 +45,7 @@ Ensure `louk` is installed as a `peerDependency`, then configure your build pipe
 
 ### Via Vue Config
 If using a [Vue CLI](https://cli.vuejs.org/) project, add a loader via [Vue webpack configuration](https://cli.vuejs.org/guide/webpack.html#simple-configuration).
-```
+```js
 // vue.config.js
 module.exports = {
     /* ... */
@@ -55,7 +55,7 @@ module.exports = {
             .rule("louk")
             .test(/\.louk$/)
             .use()
-                .loader("louk""))
+                .loader("louk")
                 .end()
   }
 }
