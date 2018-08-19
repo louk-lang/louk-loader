@@ -63,7 +63,7 @@ module.exports = {
 
 ### Via webpack Config with Vue
 If using a plain webpack project with Vue, add a loader via [webpack configuration](https://webpack.js.org/concepts/loaders/#configuration), in addition to the [Vue Loader](https://vue-loader.vuejs.org/guide/#vue-cli).
-```
+```js
 // webpack.config.js
 module.exports = {
     /* ... */
@@ -80,7 +80,7 @@ module.exports = {
 
 ### Via webpack Config without Vue
 If using a plain webpack project without Vue, add both the `louk-loader` and an `html-loader`.
-```
+```js
 // webpack.config.js
 module.exports = {
     /* ... */
@@ -93,7 +93,7 @@ module.exports = {
                         loader: "html-loader"
                     },
                     {
-                        loader: "louk-loader"),
+                        loader: "louk-loader",
                     }
                 ]
             },
