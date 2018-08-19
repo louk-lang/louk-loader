@@ -1,0 +1,21 @@
+{
+  "name": "louk-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "peerDependencies": "louk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agorischek/louk-loader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agorischek/louk-loader/issues"
+  },
+  "homepage": "https://github.com/agorischek/louk-loader#readme",
+  "dependencies": {
+      
+  }
+}
