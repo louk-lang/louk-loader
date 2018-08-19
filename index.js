@@ -1,4 +1,4 @@
-const louk = require("../louk/louk.js")
+const louk = require("louk")
 
 module.exports = function(content){
     return louk(content)
