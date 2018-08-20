@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "peerDependencies": "louk",
-  "repository": {
+  "peerDependencies": {
+    "louk": "^0.1.0"
+    },
+    "repository": {
     "type": "git",
     "url": "git+https://github.com/agorischek/louk-loader.git"
   },
