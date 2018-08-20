@@ -1,20 +1,20 @@
 {
-  "name": "louk-loader",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "peerDependencies": {
-    "louk": "^0.1.0"
+    "name": "louk-loader",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "peerDependencies": {
+        "louk": "^0.1.0"
     },
     "repository": {
-    "type": "git",
-    "url": "git+https://github.com/agorischek/louk-loader.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/agorischek/louk-loader/issues"
-  },
-  "homepage": "https://github.com/agorischek/louk-loader#readme",
+        "type": "git",
+        "url": "git+https://github.com/agorischek/louk-loader.git"
+    },
+    "keywords": ["Vue"],
+    "author": "Alex Gorischek",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/agorischek/louk-loader/issues"
+    },
+    "homepage": "https://github.com/agorischek/louk-loader#readme"
 }
