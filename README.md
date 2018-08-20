@@ -55,7 +55,7 @@ module.exports = {
             .rule("louk")
             .test(/\.louk$/)
             .use()
-                .loader("louk")
+                .loader("louk-loader")
                 .end()
   }
 }
