@@ -10,11 +10,19 @@
         "type": "git",
         "url": "git+https://github.com/agorischek/louk-loader.git"
     },
-    "keywords": ["Vue"],
+    "keywords": [
+        "Vue"
+    ],
     "author": "Alex Gorischek",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/agorischek/louk-loader/issues"
     },
-    "homepage": "https://github.com/agorischek/louk-loader#readme"
+    "homepage": "https://github.com/agorischek/louk-loader#readme",
+    "dependencies": {
+        "loader-utils": "^1.1.0"
+    },
+    "devDependencies": {
+        "louk": "^0.5.1"
+    }
 }
