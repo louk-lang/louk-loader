@@ -44,12 +44,8 @@ module.exports = {
             {
                 test: /\.louk$/,
                 use: [
-                    {
-                        loader: "vue-loader"
-                    },
-                    {
-                        loader: "louk-loader"
-                    }
+                    {loader: "vue-loader"},
+                    {loader: "louk-loader"}
                 ]
             },
         ]
