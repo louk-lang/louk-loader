@@ -1,5 +1,5 @@
 # Louk Loader
-Simple loader for using [Louk](https://github.com/agorischek/louk) with [webpack](https://webpack.js.org).
+Simple loader for using [Louk](https://github.com/louk-lang/louk) with [webpack](https://webpack.js.org).
 
 ## Installation
 Install `louk-loader` via npm.
