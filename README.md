@@ -1,6 +1,9 @@
 # Louk Loader
 Simple loader for using [Louk](https://github.com/louk-lang/louk) with [webpack](https://webpack.js.org).
 
+[![Version](https://img.shields.io/npm/v/louk-loader.svg?style=flat-square)](https://www.npmjs.com/package/louk-loader)
+[![License](https://img.shields.io/github/license/louk-lang/louk-loader.svg?style=flat-square)](https://github.com/louk-lang/louk-loader/blob/master/LICENSE)
+
 ## Installation
 Install `louk-loader` via npm.
 ```
