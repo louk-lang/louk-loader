@@ -23,6 +23,6 @@
     "loader-utils": "^2.0.0"
   },
   "devDependencies": {
-    "louk": "^2.0.7"
+    "louk": "^2.0.14"
   }
 }
